@@ -1,0 +1,41 @@
+########################################
+# Node.js Backend Ignore
+########################################
+/backend/node_modules
+/backend/dist
+/backend/coverage
+/backend/*.log
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/pnpm-debug.log*
+/backend/*.tgz
+/backend/*.tsbuildinfo
+/backend/.env
+/backend/.env.*.local
+/backend/.cache
+
+########################################
+# React + Vite Frontend Ignore
+########################################
+/frontend/interview-prep-ai/node_modules
+/frontend/interview-prep-ai/dist
+/frontend/interview-prep-ai/.env
+/frontend/interview-prep-ai/.env.*.local
+/frontend/interview-prep-ai/.vite
+/frontend/interview-prep-ai/*.log
+/frontend/interview-prep-ai/*.tgz
+/frontend/interview-prep-ai/.cache
+
+########################################
+# OS & Editor Files
+########################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+/frontend/node_modules
